@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhello_pdf"]=self["webpackChunkhello_pdf"]||[]).push([[594],{603:function(n,u,e){e.r(u),e.d(u,{default:function(){return h}});var t=e(6768);const a={class:"about"},r=(0,t.Lk)("h1",null,"This is an about page",-1),s=[r];function l(n,u){return(0,t.uX)(),(0,t.CE)("div",a,s)}var c=e(1241);const o={},f=(0,c.A)(o,[["render",l]]);var h=f}}]);
+//# sourceMappingURL=about.9acbb3d4.js.map
