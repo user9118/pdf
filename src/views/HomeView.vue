@@ -1,18 +1,25 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VuePdfEmbed
+      ref="pdfRef"
+      :source="pdfSource"
+    />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import VuePdfEmbed from 'vue-pdf-embed'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    VuePdfEmbed
+  },
+  data() {
+    return {
+      pdfSource:
+        'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf',
+    }
   }
 }
 </script>
